@@ -1,0 +1,24 @@
+2025-12-02 10:57:46,497 - INFO - ===== LOGIN TEST RUN STARTED =====
+2025-12-02 10:57:47,894 - INFO - [PASS] User='aadisharma', Password='aadi99', Expected=SUCCESS, Purpose='Correct user should login successfully'. Details: Login SUCCESS as expected for user 'aadisharma'. Page message: 'Login successful. Welcome, aadisharma!'
+2025-12-02 10:57:48,054 - INFO - [PASS] User='aadisharma', Password='wrongpass', Expected=FAILURE, Purpose='Correct username but wrong password should fail'. Details: Login FAILED as expected for user 'aadisharma'. Page message: 'Invalid username or password.'
+2025-12-02 10:57:48,206 - INFO - [PASS] User='wronguser', Password='aadi99', Expected=FAILURE, Purpose='Wrong username but correct password should fail'. Details: Login FAILED as expected for user 'wronguser'. Page message: 'Invalid username or password.'
+2025-12-02 10:57:48,460 - INFO - [PASS] User='test', Password='123', Expected=FAILURE, Purpose='Completely invalid credentials should fail'. Details: Login FAILED as expected for user 'test'. Page message: 'Invalid username or password.'
+2025-12-02 10:57:50,610 - INFO - ===== LOGIN TEST RUN FINISHED =====
+2025-12-02 10:57:52,825 - INFO - ===== LOGIN TEST RUN STARTED =====
+2025-12-02 10:57:54,301 - INFO - [PASS] User='aadisharma', Password='aadi99', Expected=SUCCESS, Purpose='Correct user should login successfully'. Details: Login SUCCESS as expected for user 'aadisharma'. Page message: 'Login successful. Welcome, aadisharma!'
+2025-12-02 10:57:54,511 - INFO - [PASS] User='aadisharma', Password='wrongpass', Expected=FAILURE, Purpose='Correct username but wrong password should fail'. Details: Login FAILED as expected for user 'aadisharma'. Page message: 'Invalid username or password.'
+2025-12-02 10:57:54,681 - INFO - [PASS] User='wronguser', Password='aadi99', Expected=FAILURE, Purpose='Wrong username but correct password should fail'. Details: Login FAILED as expected for user 'wronguser'. Page message: 'Invalid username or password.'
+2025-12-02 10:57:54,844 - INFO - [PASS] User='test', Password='123', Expected=FAILURE, Purpose='Completely invalid credentials should fail'. Details: Login FAILED as expected for user 'test'. Page message: 'Invalid username or password.'
+2025-12-02 10:57:56,952 - INFO - ===== LOGIN TEST RUN FINISHED =====
+2025-12-02 10:57:59,259 - INFO - ===== LOGIN TEST RUN STARTED =====
+2025-12-02 10:58:00,701 - INFO - [PASS] User='aadisharma', Password='aadi99', Expected=SUCCESS, Purpose='Correct user should login successfully'. Details: Login SUCCESS as expected for user 'aadisharma'. Page message: 'Login successful. Welcome, aadisharma!'
+2025-12-02 10:58:00,936 - INFO - [PASS] User='aadisharma', Password='wrongpass', Expected=FAILURE, Purpose='Correct username but wrong password should fail'. Details: Login FAILED as expected for user 'aadisharma'. Page message: 'Invalid username or password.'
+2025-12-02 10:58:01,068 - INFO - [PASS] User='wronguser', Password='aadi99', Expected=FAILURE, Purpose='Wrong username but correct password should fail'. Details: Login FAILED as expected for user 'wronguser'. Page message: 'Invalid username or password.'
+2025-12-02 10:58:01,197 - INFO - [PASS] User='test', Password='123', Expected=FAILURE, Purpose='Completely invalid credentials should fail'. Details: Login FAILED as expected for user 'test'. Page message: 'Invalid username or password.'
+2025-12-02 10:58:03,312 - INFO - ===== LOGIN TEST RUN FINISHED =====
+2025-12-02 10:58:04,046 - INFO - ===== LOGIN TEST RUN STARTED =====
+2025-12-02 10:58:05,399 - INFO - [PASS] User='aadisharma', Password='aadi99', Expected=SUCCESS, Purpose='Correct user should login successfully'. Details: Login SUCCESS as expected for user 'aadisharma'. Page message: 'Login successful. Welcome, aadisharma!'
+2025-12-02 10:58:05,538 - INFO - [PASS] User='aadisharma', Password='wrongpass', Expected=FAILURE, Purpose='Correct username but wrong password should fail'. Details: Login FAILED as expected for user 'aadisharma'. Page message: 'Invalid username or password.'
+2025-12-02 10:58:05,813 - INFO - [PASS] User='wronguser', Password='aadi99', Expected=FAILURE, Purpose='Wrong username but correct password should fail'. Details: Login FAILED as expected for user 'wronguser'. Page message: 'Invalid username or password.'
+2025-12-02 10:58:05,980 - INFO - [PASS] User='test', Password='123', Expected=FAILURE, Purpose='Completely invalid credentials should fail'. Details: Login FAILED as expected for user 'test'. Page message: 'Invalid username or password.'
+2025-12-02 10:58:08,141 - INFO - ===== LOGIN TEST RUN FINISHED =====

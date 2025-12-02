@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Simple Login Page</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin-top: 60px;
+            text-align: center;
+        }
+        .container {
+            display: inline-block;
+            padding: 20px;
+            border: 1px solid #ccc;
+            border-radius: 8px;
+        }
+        input {
+            margin: 5px;
+            padding: 8px;
+            width: 220px;
+        }
+        button {
+            padding: 8px 16px;
+            margin-top: 10px;
+            cursor: pointer;
+        }
+        #message {
+            margin-top: 15px;
+            font-weight: bold;
+        }
+    </style>
+</head>
+<body>
+<div class="container">
+    <h2>Login</h2>
+    <div>
+        <input id="username" type="text" placeholder="Username">
+    </div>
+    <div>
+        <input id="password" type="password" placeholder="Password">
+    </div>
+    <div>
+        <button id="loginBtn" onclick="login()">Login</button>
+    </div>
+    <div id="message"></div>
+</div>
+
+<script>
+    function login() {
+        const u = document.getElementById('username').value;
+        const p = document.getElementById('password').value;
+        const msg = document.getElementById('message');
+
+        // ✅ Only this combination is VALID
+        if (u === 'aadisharma' && p === 'aadi99') {
+            msg.textContent = 'Login successful. Welcome, ' + u + '!';
+            msg.style.color = 'green';
+        } else {
+            msg.textContent = 'Invalid username or password.';
+            msg.style.color = 'red';
+        }
+    }
+</script>
+</body>
+</html>

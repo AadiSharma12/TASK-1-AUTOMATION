@@ -1,0 +1,5 @@
+username,password,expected_result,purpose
+aadisharma,aadi99,success,Correct user should login successfully
+aadisharma,wrongpass,failure,Correct username but wrong password should fail
+wronguser,aadi99,failure,Wrong username but correct password should fail
+test,123,failure,Completely invalid credentials should fail

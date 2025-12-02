@@ -1,0 +1,5 @@
+username,password,expected_result,purpose,status,details
+aadisharma,aadi99,success,Correct user should login successfully,PASS,"Login SUCCESS as expected for user 'aadisharma'. Page message: 'Login successful. Welcome, aadisharma!'"
+aadisharma,wrongpass,failure,Correct username but wrong password should fail,PASS,Login FAILED as expected for user 'aadisharma'. Page message: 'Invalid username or password.'
+wronguser,aadi99,failure,Wrong username but correct password should fail,PASS,Login FAILED as expected for user 'wronguser'. Page message: 'Invalid username or password.'
+test,123,failure,Completely invalid credentials should fail,PASS,Login FAILED as expected for user 'test'. Page message: 'Invalid username or password.'
